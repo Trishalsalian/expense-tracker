@@ -1,4 +1,4 @@
-html{font-size:25px}
+html{font-size:20px}
 :root{
   --bg:#0B0B0F;--card:#15151F;--primary:#8B5CF6;--neon:#B026FF;
   --radium:#39FF14;--danger:#FF3860;--text:#F5F5FA;--muted:#8A8AA0;--border:#26263A;
@@ -44,3 +44,8 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--neon);bo
 .budget-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .budget-head input{width:120px}
 @media(max-width:600px){.nav{padding:12px 16px}}
+.auth{max-width:420px;margin:40px auto}
+.error{background:rgba(255,56,96,.12);border:1px solid var(--danger);color:#ff8fa5;padding:10px 12px;border-radius:10px;font-size:.9rem}
+.switch{color:var(--muted);text-align:center;font-size:.9rem}
+.switch a{color:var(--neon)}
+.userbox{display:flex;align-items:center;gap:12px;color:var(--muted)}
